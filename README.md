@@ -44,6 +44,8 @@ Przeprowadziłem symulację na 1000 wygenerowanych zgłoszeniach wsparcia.
 
 *Z kodem źródłowym symulacji (Python/Pandas) można zapoznać się w pliku* `dobryplan.ipynb`
 
+![Zestawienie: Wolumen zgłoszeń vs Całkowity czas obsługi zespołu](wykres_analiza.png)
+
 ### Odkrycie analityczne:
 
 Jak udowadnia mój skrypt, zgłoszenia typu `Konflikt sal`  powodują nieproporcjonalnie większy nakład czasowy. Mimo że stanowią zaledwie drobną część wszystkich ticketów (181 na 1000 zgłoszeń), ich obsługa jest na tyle skomplikowana, że pożera z budżetu operacyjnego ponad 2500 godzin pracy zespołu wsparcia. Dla porównania, proste błędy interfejsu to tylko 200 godzin.
